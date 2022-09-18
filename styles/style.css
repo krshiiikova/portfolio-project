@@ -1,25 +1,63 @@
 :root {
-  --heading-font: "Playfair Display";
-  --info-font: "Poppins";
+  --heading-font-family: "Playfair Display";
+  --info-font-family: "Poppins";
 }
-.hero {
-  text-align: center;
-  padding: 176px 0;
-  background: #f9f7fe;
+p {
+  line-height: 30px;
 }
+
 .hero p {
-  font-family: var(--info-font);
+  font-family: var(--info-font-family);
   font-weight: bold;
   font-size: 36px;
 }
 
 .hero h1 {
-  font-family: var(--heading-font);
+  font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 90px;
 }
 .hero h2 {
-  font-family: var(--info-font);
+  font-family: var(--info-font-family);
   font-weight: 300;
   font-size: 24px;
+}
+
+body h3 {
+  font-size: 64px;
+}
+
+.hero {
+  text-align: center;
+  padding: 176px 0;
+  background: #f9f7fe;
+}
+
+.btn-branding {
+  background: #6c63ff;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding-outline {
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
+  color: #6c63ff;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 25px;
+}
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
