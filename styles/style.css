@@ -72,9 +72,72 @@ h3 {
   background-color: #f9f7fe;
   text-align: center;
 }
-@media (max-width: 900px) {
+
+.work {
+  margin: 50px 0;
+  background-color: #f9f7fe;
+  padding: 50px;
+  text-align: center;
+  font-family: var(--heading-font-family);
+}
+
+.image p {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: var(--info-font-family);
+}
+.contact .container {
+  margin-top: 150px;
+  text-align: center;
+  font-family: var(--heading-font-family);
+}
+.contact .container h2 {
+  font-size: 45px;
+}
+.contact div {
+  text-align: center;
+  margin-top: 20px;
+  font-family: var(--info-font-family);
+}
+
+.about-paragraphs {
+  text-align: center;
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+
+  font-family: var(--info-font-family);
+}
+.email-link:hover {
+  color: #6c63ff;
+}
+
+.social-links a {
+  margin: 0 20px;
+  color: #6c63ff;
+  background-color: rgba(245, 245, 220, 0.607);
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 5px 10px;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: white;
+  background-color: #6c63ff;
+}
+.coder {
+  font-family: var(--info-font-family);
+}
+
+@media (max-width: 700px) {
   .hero h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .hero h2 {
     font-size: 20px;
